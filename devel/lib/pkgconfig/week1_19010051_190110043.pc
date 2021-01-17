@@ -1,0 +1,8 @@
+prefix=/home/manan/sc635_workspace/devel
+
+Name: week1_19010051_190110043
+Description: Description of week1_19010051_190110043
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

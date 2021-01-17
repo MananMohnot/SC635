@@ -1,0 +1,9 @@
+<launch>
+    <arg name="dolphin_msg" default="Click_and_Squeak"/>
+    <arg name="cat_msg" default="Meow_and_Purr"/>
+    
+    <node name="dolphin" pkg="test_pub_sub" type="talker_mod.py" args="$(arg dolphin_msg)" />
+    <node name="cat" pkg="test_pub_sub" type="talker_mod.py" args="$(arg cat_msg)" />
+    <node name="listener" pkg="test_pub_sub" type="listener.py" output="screen"  />
+</launch>
+

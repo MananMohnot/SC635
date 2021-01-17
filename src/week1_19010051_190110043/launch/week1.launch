@@ -1,0 +1,6 @@
+<launch>
+    <node name="simple_name" pkg="week1_19010051_190110043" type="talk.py" output="screen"/>
+    <node name="simple_roll" pkg="week1_19010051_190110043" type="roll.py" output="screen"/>
+    <node name="simple_sub" pkg="week1_19010051_190110043" type="listen.py" output="screen"/>
+</launch>
+
